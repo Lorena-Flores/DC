@@ -1,0 +1,90 @@
+/* Navigation wrapper */
+.navigation-wrapper {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	display: flex; /* Flexbox container */
+	justify-content: space-between; /* Space between items */
+	align-items: center; /* Align items vertically; Options: flex-star, center, flex-end, space-around */
+}
+
+/* Top left side */
+.navigation-wrapper > .top-left-side {
+	display: flex; /* Flexbox container */
+	align-items: center;
+	gap: 35px;
+}
+
+	/* Codepen logo */
+.navigation-wrapper > .top-left-side > .banner-image img {
+	height: 30px;
+	width: auto;
+	margin: 0 25px;
+}
+
+	/* Links column */
+.navigation-wrapper > .top-left-side > .links-column {
+	width: 450px;
+	display: grid; /* Contenedor de cuadricula - to organize child elements */
+	grid-template-columns: 1fr; /* Defines a column on the grid */
+	grid-gap: 5px; /* Space between child elements (grid items) */
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .explore {
+	font-weight: 700;
+	color: #ecd45b;
+}
+
+	/* Links column - links wrapper */
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper {
+	display: flex; /* Flexbox container */
+	align-items: center;
+	justify-content: space-between; /* Distributes the space between child elements */
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper > .nav-link a {
+	font-weight: 900;
+	color: white;
+	text-decoration: none;
+	font-size: 1.15em;
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper > .nav-link a:hover {
+	color: #fbfafa;
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper > .spark-chevron a {
+	font-weight: 800;
+	font-size: 1.1em;
+	color: #acacac;
+	text-decoration: none;
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper > .spark-chevron a:hover {
+	color: #c6c6c6;
+}
+
+.navigation-wrapper > .top-left-side > .links-column > .links-wrapper > .spark-chevron i {
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+
+/* Top right buttons */
+.navigation-wrapper > .top-right-buttons {
+	width: 500px;
+	display: flex; /* Flexbox container */
+	align-items: center;
+	justify-content: flex-end; /* Aligns child elements horizontally at the end */
+	gap: 16px;  /* Space between items */
+	margin-right: 5px;
+}
+
+.navigation-wrapper > .top-right-buttons > .search-icon img {
+	width: 40px;
+	height: auto; 
+	margin: 0 5px;
+}
+
+.navigation-wrapper > .top-right-buttons > .search-icon img:hover {
+	color: #acacac;
+}

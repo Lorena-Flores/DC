@@ -1,0 +1,118 @@
+/* Features section */
+.features-section {
+	width: 100%; /* ancho */
+	height: 530px;
+	background-color: #34363d;
+	box-shadow: inset -650px -200px 500px rgba(0, 0, 0, 0.6);
+	display: flex; /* Flexbox container */
+	align-items: center;
+	justify-content: space-between; /* It gives space between the items */
+}
+
+/* Left section */
+.features-section > .presentation {
+	width: 700px; /* ancho */
+	height: 100%;
+	display: flex; /* Flexbox container */
+	flex-direction: column; /* Organizes child elements on a column */
+	align-items: flex-start; /* Aligns child elements horizontally at the beginning of the wraper */
+	justify-content: flex-start; /* Aligns child elements vertically at the beginning of the wraper */
+	margin-left: 60px;
+}
+
+.features-section > .presentation > .text-field {
+	display: grid; /* Grid= cuadricula */
+	grid-template-columns: 1fr; /* First child will take the first row */
+	grid-gap: 20px; /* Grid-gap= brecha entre cuadriculas */
+	margin: 50px 0 45px;
+}
+
+.features-section > .presentation > .text-field > .first-paragraph {
+	width: 100%;
+	color: rgb(223, 217, 217);
+	font-weight: 300; /* grosor */
+	font-size: 2.5em;
+}
+
+.features-section > .presentation > .text-field > .first-paragraph strong {
+	color: white;
+}
+
+.features-section > .presentation > .text-field > .second-paragraph {
+	width: 650px;
+	color: #98999b;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.features-section > .presentation > .buttons-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 15px; /* Adds space between child elements */
+}
+
+/* Right section */
+.features-section > .right-section {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+.features-section > .right-section > .img-header {
+	color: white;
+	font-size: 1.15em;
+	font-weight: 700;
+	margin-left: 15px;
+}
+
+.features-section > .right-section > .img-header a {
+	color: #6cd6fd;
+	text-decoration: none;
+}
+
+.features-section > .right-section > .img-header a:hover {
+	color: #86ffff;
+}
+
+.features-section > .right-section img {
+	width: 567px;
+	height: auto;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+/* Bottom section */
+.codepen-for-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.codepen-for-wrapper > .codepen-for-item {
+	background-color: #36383f;
+	border: 1px solid #676767;
+	padding: 17px 0;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.codepen-for-wrapper > .codepen-for-item:hover {
+	background-color: #5a5f73;
+}
+
+.codepen-for-wrapper > .codepen-for-item span {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.3em;
+	letter-spacing: -2px;
+}
+
+.page-end {
+	width: 100%;
+	height: 110px;
+	background-color: #191a1d;
+}

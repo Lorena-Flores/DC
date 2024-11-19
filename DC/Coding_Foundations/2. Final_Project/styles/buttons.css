@@ -1,0 +1,56 @@
+/* Sign Up for Free - Green button */
+.green-btn {
+	background-color: #25bc7d;
+	border: none;
+	border-radius: 4px; /* Round the corners */
+	color: black; /* Text color */
+	font-size: 2em;
+	font-weight: 500; /* Font thickness */
+	padding: 18px 25px; /* 18px up and down, 25px left and right */
+}
+
+.green-btn:hover {
+	background-color: #136d48; /* Changes background color on hover */
+	color: rgb(222, 219, 219); /* Changes text color on hover */
+	cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+/* Learn More - Black button */
+.black-btn {
+	background-color: #111111;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	padding: 18px 29px;
+}
+
+.black-btn:hover {
+	background-color: #36383f;
+	cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+/* CodePen for - Grey buttons */
+.grey-btn {
+	background-color: #36383f;
+	border: none;
+	border-radius: 3px;
+	color: #f7f5e6;
+	font-size: 1.15em;
+	font-weight: 700;
+	padding: 15px 23px;
+	display: flex; /* Flexbox container */
+	align-items: center;
+	gap: 10px; /* Space between items */
+}
+
+.grey-btn i {
+	color: #4bce79;
+	font-size: 1.2em;
+}
+
+.grey-btn:hover {
+	background-color: #5a5f73;
+	cursor: pointer; /* Changes cursor to pointer on hover */
+}
